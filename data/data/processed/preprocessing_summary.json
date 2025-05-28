@@ -1,0 +1,56 @@
+{
+  "dataset_info": {
+    "total_samples": 6392,
+    "features": [
+      "ID",
+      "Patient Age",
+      "Patient Sex",
+      "Left-Fundus",
+      "Right-Fundus",
+      "Left-Diagnostic Keywords",
+      "Right-Diagnostic Keywords",
+      "N",
+      "D",
+      "G",
+      "C",
+      "A",
+      "H",
+      "M",
+      "O",
+      "filepath",
+      "labels",
+      "target",
+      "filename",
+      "label_count",
+      "stratify_label"
+    ],
+    "label_columns": [
+      "N",
+      "D",
+      "G",
+      "C",
+      "A",
+      "H",
+      "M",
+      "O"
+    ],
+    "target_size": [
+      512,
+      512
+    ]
+  },
+  "splits": {
+    "train": 4474,
+    "validation": 959,
+    "test": 959
+  },
+  "preprocessing_steps": [
+    "Dataset loading and inspection",
+    "Label distribution analysis",
+    "Image property inspection",
+    "Train/validation/test splitting",
+    "Class weight computation",
+    "Augmentation pipeline creation",
+    "Class balancing analysis"
+  ]
+}
